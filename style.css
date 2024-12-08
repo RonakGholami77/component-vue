@@ -3,3 +3,30 @@
   padding: 0;
   box-sizing: border-box;
 }
+#app {
+  background-color: antiquewhite;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+.card {
+  border: none;
+  border-radius: 5px;
+  width: 30%;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.card img {
+  width: 100%;
+}
+.card h1 {
+  font-size: 18px;
+  color: gray;
+  text-align: center;
+  margin: 14px;
+}
